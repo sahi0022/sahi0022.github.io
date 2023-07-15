@@ -6,7 +6,7 @@
 
     .gameslist li {
         list-style: none;
-        border-bottom: 2px solid red;
+        border-bottom: 3px solid rgb(54, 6, 6);
         padding: 10px;
     }
 }
@@ -21,10 +21,10 @@
 @media screen and ( min-width:800px){
 
     .gameslist li {
+        border-right: 3px solid rgb(13, 12, 12);
+        padding: 10px;
         float: left;
         list-style: none;
-        border-right: 2px solid red;
-        padding: 10px;
     }
 }
 
