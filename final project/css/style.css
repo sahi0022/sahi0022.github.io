@@ -1,4 +1,14 @@
 /* #c78c06, #ffe6ac, #222 */
+
+body {
+    max-width: 1200px;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    ;
+}
+
 header {
     background-color: #222;
     width: 760px;
@@ -39,7 +49,7 @@ nav ul li a {
 
 .container {
     padding-top: 47px;
-    height: 700px;
+    height: 737px;
     width: 760px;
     background-image: url(/images/body-1.jpg);
     background-size: cover;
@@ -49,7 +59,7 @@ nav ul li a {
 .content {
 
     background-color: rgba(27, 24, 24, 0.6);
-    height: 525px;
+    height: 585px;
     width: 760px;
 }
 
@@ -78,7 +88,7 @@ nav ul li a {
 }
 
 .main {
-    margin-top: 114px;
+    margin-top: 33px;
     height: 4365px;
     width: 760px;
     display: grid;
@@ -87,7 +97,7 @@ nav ul li a {
 
 .box {
     box-sizing: border-box;
-    height: 700px;
+    height: 730px;
     width: 760px;
 }
 
@@ -115,13 +125,15 @@ nav ul li a {
     font-size: 40px;
 }
 
-#div-2 {
-    height: 810px;
-}
 
-#div-2 h2 {
+#dive-2 {
     font-size: 40px;
     padding: 0px 10px 0px 10px;
+}
+
+#div-2 {
+    height: 810px;
+    background-color: #ffe6ac;
 }
 
 #div-2 h3 {
@@ -274,23 +286,25 @@ nav ul li a {
 #mid button {
     color: #222;
     background-color: white;
+    margin-top: 30px;
     margin-left: 20px;
     height: 64px;
     width: 25%;
 }
 
 #down {
-    padding-top: 290px;
+    padding-top: 10px;
     height: 400px;
     width: 760px;
 }
 
 #down h2 {
+    margin-top: 200px;
     font-size: 40px;
 }
 
 #down img {
-    padding: 10px 10px 10px 10px;
+    padding: 0px 10px 10px 10px;
     height: 450px;
     width: 740px;
 }
@@ -314,9 +328,15 @@ nav ul li a {
 }
 
 form {
-    margin-top: 1200px;
+    margin-top: 1120px;
 }
 
+#form-div{
+    width: 560px;
+}
+#frame{
+    width: 550px;
+}
 form div {
     padding: 10px;
 }
@@ -345,13 +365,491 @@ td {
     text-align: left;
 }
 
-#info{
+#info {
     margin-top: 30px;
 }
 
-#lowest{
-    margin-top:20px;
+#lowest {
+    margin-top: 20px;
     height: 50px;
     width: 760px;
     background-color: #ffe6ac;
+}
+
+@media screen and (min-width: 760px) and (max-width: 1200px) {
+    * {
+        font-family: 'Open Sans', sans-serif;
+        ;
+    }
+
+    header {
+        background-color: #222;
+        display: flex;
+        justify-content: center;
+        width: 1200px;
+        height: 200px;
+    }
+
+    .topjpg {
+        display: inline;
+        height: 100px;
+        width: 120px;
+        margin: 45px 39px 0px 91px;
+    }
+
+    .navbar {
+        display: inline-block;
+        margin: 40px 0px 0px 0px;
+
+    }
+
+    nav ul li {
+        display: inline-block;
+        color: white;
+        padding: 22px;
+        font-size: 25px;
+
+
+    }
+
+    nav ul li a {
+        text-decoration: none;
+
+    }
+
+    .search {
+        display: inline-block;
+        font-size: 27px;
+        height: 55px;
+        width: 15%;
+        margin-left: 24px;
+        margin-top: 65px;
+    }
+
+    .container {
+        padding-top: 47px;
+        height: 737px;
+        width: 1200px;
+        background-image: url(/images/body-1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .content {
+
+        background-color: rgba(27, 24, 24, 0.6);
+        height: 585px;
+        width: 1100px;
+        margin: 0px 0px 0px 59px;
+    }
+
+    .content h1 {
+        padding-top: 25px;
+        padding-left: 20px;
+        font-size: 93px;
+        color: white;
+    }
+
+    .content p {
+        color: white;
+        font-size: 20px;
+    }
+
+    .content button {
+        background-color: #c78c06;
+        margin-left: 20px;
+        height: 64px;
+        width: 25%;
+    }
+
+
+    .box {
+        height: 730px;
+        width: 1200px;
+    }
+
+    .img {
+
+        padding: 0px 0px 0px 0px;
+        height: 250px;
+        width: 330px;
+    }
+
+    #div-1 {
+        background-color: #ffe6ac;
+        box-sizing: border-box;
+        height: 342px;
+    }
+
+    #div-1 img {
+        padding: 10px 10px 10px 71px;
+        height: 250px;
+        width: 500px;
+        float: left;
+    }
+
+    #div-1 h2 {
+
+        font-size: 40px;
+        text-align: justify;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #div-1 p {
+
+        text-align: justify;
+        font-size: 20px;
+        padding: 13px 10px 0px 10px;
+    }
+
+    #dive-2 {
+        font-size: 45px;
+        padding: 0px 10px 0px 114px;
+    }
+
+    .main {
+        margin-top: 0px;
+        height: 1219px;
+        width: 1200px;
+        display: grid;
+        padding-left: 20px;
+        grid-gap: 2px;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+        overflow: auto;
+    }
+
+
+    #div-2 {
+        grid-row-start: 1;
+        grid-row-end: 5;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        border: 2px solid black;
+        height: 580px;
+        width: 550px;
+        background-color: #ffe6ac;
+    }
+
+    #div-2 .img {
+
+        padding: 0px 0px 0px 0px;
+        height: 250px;
+        width: 550px;
+    }
+
+    #div-2 h3 {
+        font-size: 35px;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #div-2 p {
+        font-size: 20px;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #div-2 button {
+        color: white;
+        background-color: #222;
+        margin-left: 20px;
+        height: 64px;
+        width: 25%;
+    }
+
+    #div-3 {
+        grid-row-start: 1;
+        grid-row-end: 5;
+        grid-column-start: 4;
+        grid-column-end: 7;
+        border: 2px solid black;
+        background-color: #ffe6ac;
+        height: 580px;
+        width: 550px;
+    }
+
+    #div-3 .img {
+
+        padding: 0px 0px 0px 0px;
+        height: 250px;
+        width: 550px;
+    }
+
+    #div-3 h2 {
+        font-size: 40px;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #div-3 h3 {
+        font-size: 35px;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #div-3 p {
+        font-size: 20px;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #div-3 button {
+        color: white;
+        background-color: #222;
+        margin-left: 20px;
+        height: 64px;
+        width: 25%;
+    }
+
+
+    #div-4 {
+        border: 2px solid black;
+        background-color: #ffe6ac;
+        grid-row-start: 5;
+        grid-row-end: 8;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        width: 330px;
+        height: 615px;
+    }
+
+    #div-4 h2 {
+        font-size: 40px;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #div-4 h3 {
+        font-size: 35px;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #div-4 p {
+        font-size: 20px;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #div-4 button {
+        color: white;
+        background-color: #222;
+        margin-left: 20px;
+        height: 64px;
+        width: 25%;
+    }
+
+    #div-5 {
+        border: 2px solid black;
+        background-color: #ffe6ac;
+        grid-row-start: 5;
+        grid-row-end: 8;
+        grid-column-start: 3;
+        grid-column-end: 5;
+        width: 330px;
+        height: 615px;
+    }
+
+    #div-5 h2 {
+        font-size: 40px;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #div-5 h3 {
+        font-size: 35px;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #div-5 p {
+        font-size: 20px;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #div-5 button {
+        color: white;
+        background-color: #222;
+        margin-left: 20px;
+        height: 64px;
+        width: 25%;
+    }
+
+    #div-6 {
+        border: 2px solid black;
+        background-color: #ffe6ac;
+        grid-column-start: 5;
+        grid-column-end: 7;
+        grid-row-start: 5;
+        grid-row-end: 8;
+        width: 330px;
+        height: 615px;
+    }
+
+    #div-6 h2 {
+        font-size: 40px;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #div-6 h3 {
+        font-size: 35px;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #div-6 p {
+        font-size: 20px;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #div-6 button {
+        color: white;
+        background-color: #222;
+        margin-left: 20px;
+        height: 64px;
+        width: 25%;
+    }
+
+    #mid {
+        height: 300px;
+        width: 1200px;
+        background-image: url(/images/sea.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #mid h2 {
+        color: white;
+        font-size: 40px;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #mid p {
+        color: white;
+        font-size: 20px;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #mid button {
+        color: #222;
+        background-color: white;
+        margin-top: 30px;
+        margin-left: 20px;
+        height: 64px;
+        width: 25%;
+    }
+
+    #down {
+        padding-top: 10px;
+        height: 400px;
+        width: 760px;
+    }
+
+    #down h2 {
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    #down img {
+        padding: 0px 10px 10px 10px;
+        height: 450px;
+        width: 740px;
+    }
+
+    #down h3 {
+        font-size: 30px;
+    }
+
+    #down h4 {
+        font-size: 25px;
+    }
+
+    #salman {
+        background-color: #ffe6ac;
+        box-sizing: border-box;
+        height: 500px;
+        width: 1200px;
+    }
+
+    #salman img {
+        float: left;
+        height: 500px;
+        width: 600px;
+    }
+
+    #salman h3 {
+        text-align: justify;
+    }
+
+    #salman h4 {
+        text-align: justify;
+    }
+
+    #salman p {
+        text-align: justify;
+    }
+
+    #akshay {
+        background-color: #ffe6ac;
+        box-sizing: border-box;
+        height: 500px;
+        width: 1200px;
+    }
+
+    #akshay img {
+        float: right;
+        height: 500px;
+        width: 600px;
+    }
+
+    form {
+        margin-top: 10px;
+        float: left;
+    }
+
+    form div {
+        padding: 10px;
+    }
+
+    #form-div{
+        margin-top: 10px;
+        float: right;
+        width: 550px;
+    }
+
+    form input {
+        width: 544px;
+    }
+
+    form h2 {
+        font-size: 40px;
+    }
+
+    form h3 {
+        font-size: 25px;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th,
+    td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+
+    }
+
+    #info {
+        margin-top: 30px;
+    }
+
+    #lowest {
+        margin-top: 20px;
+        height: 50px;
+        width: 1200px;
+        background-color: #ffe6ac;
+    }
+
+    #days {
+        
+        background-color: #ffe6ac;
+    }
+
+    #hours{
+        background-color: #ffe6ac;
+    }
+
 }
